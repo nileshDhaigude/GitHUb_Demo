@@ -18,5 +18,9 @@ public class GitHUbDemoApplication {
 	{
 		System.out.println("Demo Method....");
 	}
+	public void demo2()
+	{
+		System.out.println("Demo 2 Method....");
+	}
 
 }
