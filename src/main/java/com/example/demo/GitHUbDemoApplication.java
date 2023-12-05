@@ -11,15 +11,18 @@ public class GitHUbDemoApplication {
 		System.out.println("Main Method....");
 		GitHUbDemoApplication application = new GitHUbDemoApplication();
 		application.demo();
-		
+
 	}
-	
-	public void demo()
-	{
+
+	public void demo() {
 		System.out.println("Demo Method....");
 	}
-	public void demo2()
-	{
+
+	public void demo2() {
+		System.out.println("Demo 2 Method....");
+	}
+
+	public void demo3() {
 		System.out.println("Demo 2 Method....");
 	}
 
