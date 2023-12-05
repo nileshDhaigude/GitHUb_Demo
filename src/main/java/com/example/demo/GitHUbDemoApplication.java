@@ -8,6 +8,15 @@ public class GitHUbDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitHUbDemoApplication.class, args);
+		System.out.println("Main Method....");
+		GitHUbDemoApplication application = new GitHUbDemoApplication();
+		application.demo();
+		
+	}
+	
+	public void demo()
+	{
+		System.out.println("Demo Method....");
 	}
 
 }
